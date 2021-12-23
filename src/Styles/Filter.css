@@ -1,0 +1,409 @@
+
+
+.logopotion
+{
+    background-color: #ce0505;
+    height: 12%;
+    box-shadow: 0px 0px 2px 12px #9004a266;
+    border: 5px solid #80055f;
+    border-radius: 5px 5px 25px 25px;
+  
+}
+
+.logo
+{  
+    color: #ce0505;
+    background-color: #eef8f8;
+    height: 71px;
+    width: 71px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 60px;
+    display:inline-block;
+    line-height: 1;
+    padding: 2px;
+    margin: 8px 20px 8px 30px;
+   
+}
+
+.login
+{
+
+   
+    float: right;
+    margin: 2% 3% 1% 3%;
+    width: 15%;
+    
+    
+
+}
+
+.logtab
+{
+    
+    height: 35px;
+    width: 25%;
+    font-size: 17px;
+    color:white;
+    border-color: white;
+    background-color:#ce0505;
+    padding: 1%;
+    border: none;
+    
+    
+
+}
+
+.logtabb
+{
+    
+    height: 35px;
+    font-size: 17px;
+    width: 73%;
+    color:white;
+    border-color: white;
+    background-color:#ce0505;
+    vertical-align: top;
+    
+}
+
+.place
+{
+    
+    font-size: 50px !important;
+    color: #192f60;
+    text-shadow: 1px 0 3px #04cdf6, 0 1px 5px #0000ff;
+    margin: 1% 2% 0% 2%;
+}
+.filter-left
+
+{
+
+    padding: 1px;
+  
+    
+    
+}
+
+.filter-right   
+{
+
+    padding: 3px;
+   
+}
+
+.main
+{
+    box-shadow: 13px 23px 71px 15px  lightblue;
+    margin: 14px;
+    color: #192f60;
+    text-align: justify;
+    padding: 35px;
+  
+}
+
+.arrow
+{
+    float:right;
+    margin-top: 6%;
+    display: none !important;
+}
+
+.labell
+{
+    font-size: 25px;
+    color: #072c7c;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+.inputt
+{
+    font-size: 20px;
+    line-height: 1.4em;
+    margin-bottom: 10px;
+    padding: 1px;
+    color: rgb(87, 87, 128);
+    font-weight: lighter;
+
+}
+
+
+
+.shops
+{
+
+
+    box-shadow: 13px 23px 71px 15px  lightblue;
+    margin: 14px;
+    padding:21px;
+    height: fit-content;
+  
+    
+}
+
+.images
+{
+    height: 150px;
+    width: 150px;
+    border-radius: 15%;
+    top: 17%;
+    margin-left:17%;
+    margin-right: 100px;
+    box-shadow: 3px 3px 3px 0 rgb(133, 21, 90);
+    
+
+}
+.tab_filter
+{
+    text-align: justify;
+    margin-left: 8%;
+    margin-bottom: 1%;
+}
+.tabless
+{
+    margin-left: 8%;
+    border-spacing: 25px;
+    margin:2px
+
+
+
+}
+
+.text
+{
+    font-size: 26px;
+    color: rgb(47, 47, 126);
+    font-weight: bold;
+}
+
+.text2
+{
+    font-size: 18px;
+    color: rgb(88, 88, 151);
+    font-weight: lighter;
+   
+    
+}
+
+.text22
+{
+    padding-left: 30%;
+    font-size: 18px;
+    color: rgb(88, 88, 151);
+    font-weight: lighter;
+}
+
+input [type=text]:focus
+{
+    background-color: #cf3e3e;
+    color: white;
+    border: 3px solid rgb(236, 231, 231);
+    box-sizing: border-box;
+}
+
+.navbars a
+{
+    color: darkblue;
+    float: left;
+    padding: 3px 13px;
+    text-decoration: none;
+    border: solid 1px rgb(100 35 75);
+    border-radius: 5px;
+    margin: 5px;;
+}
+
+.page-num {
+    border: solid 1px black;
+    padding: 4px;
+    border-radius: 20px;
+    margin: 5px;
+    background-color: lightgray;
+}
+
+.ft
+{
+    background-color: DarkSalmon;
+    color: white;
+    margin: 1% 0 1% 0%;
+    border: 10px solid rgb(133, 21, 90);
+    font-family: Euclid Fraktur;
+    font-size: 20px;
+    border-radius: 10%;
+}
+
+
+.ft-edu
+{
+    margin-left: 4%;
+}
+.ft-author
+{
+    margin-left: 84%; 
+    font-size: 17px;
+    padding-bottom: 4px;
+    
+}
+
+.footext
+{
+    color: rgb(53, 139, 139);
+         font-weight: lighter
+}
+
+.no-elements
+{
+font-size: 30px;
+font-family: cursive;
+color: #80055f;
+font-weight: bold;
+text-align: center;
+}
+/*target for mobile screen size*/
+@media only screen and ( max-width:767px) {
+
+  .login
+        {
+            margin: 5% 2% 3% 2%;
+            width: 50%
+       } 
+       
+    
+
+    .logo
+        {
+            height: 61px;
+            width: 61px;
+            line-height: 0.9em;
+            padding: 0px;
+            margin: 8px;
+            text-align: center;
+        }
+
+    .logopotion
+        {
+            height:10%;
+        }
+
+    .place
+        {
+            font-size: 35px !important;
+        }
+
+    .arrow
+        {
+            float:right;
+            margin-top: 5%;
+            display:initial !important;
+        }
+    .shops 
+        {
+            box-shadow: 13px 23px 71px 15px lightblue;
+            margin: 4px;
+            padding: 3px;
+        }
+
+    .ft-edu
+        {
+            margin-left: 2%;
+        }
+    .ft-author
+
+        {
+            margin-left: 74%;
+            
+            
+        }
+
+    .footext
+        {
+            color: rgb(53, 139, 139);
+                 font-weight: lighter
+        }
+}
+/*target for tablet*/
+@media  screen and (max-width:1340px) and (min-width:767px){
+
+
+.login
+    {
+
+        vertical-align: top;
+        margin-left: 64%;
+        width: 35%;
+        display: inline-block;
+        margin-top: -5%;
+    }  
+
+.logo
+    {
+        height: 60px;
+        width: 60px;;
+    }
+
+.logopotion
+    {
+        height:10%;
+    }
+
+.logotab
+    {
+        width: 31%;
+        margin-left: -14%;
+        margin-bottom: 6%;
+        font-size: 14px;
+    }
+.logtabb
+    {
+        font-size: 14px;
+        width: 68%;
+    }
+.place
+    {
+        font-size: 35px !important;
+    }
+
+.main
+    {
+        padding: 10px;
+    }
+
+.arrow
+    {
+        float:right;
+        margin-top: 5%;
+        display:none !important;
+    }
+.shops 
+    {
+        box-shadow: 13px 23px 71px 15px lightblue;
+        margin: 7.5px;
+        padding: 1px
+    }
+
+
+.labell
+    {
+        padding: 4px;
+        margin-bottom: 2px;
+        font-size: 20px;
+    }
+
+.ft-edu
+    {
+        margin-left: 2%;
+    }
+.ft-author
+
+    {
+        margin-left: 74%;
+        
+    }
+.footext
+    {
+        color: rgb(53, 139, 139);
+             font-weight: lighter
+    }
+
+}
+
