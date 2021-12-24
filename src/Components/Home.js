@@ -17,7 +17,7 @@ class Home extends React.Component{
     componentDidMount (){
         sessionStorage.clear ();
         axios({
-            url: 'https://zomatobackend21.herokuapp.com/Locations',
+            url:'https://infinite-eyrie-27228.herokuapp.com/Locations',
             method:'GET',
             headers:{'Content-Type':'application/json'},
         })
@@ -30,7 +30,7 @@ class Home extends React.Component{
                 err =>console.log(err)
             )
             axios({
-                url: 'https://zomatobackend21.herokuapp.com/MealTypes',
+                url:'https://infinite-eyrie-27228.herokuapp.com/MealTypes',
                 method:'GET',
                 headers:{'Content-Type':'application/json'},
             })
