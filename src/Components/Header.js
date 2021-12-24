@@ -55,7 +55,7 @@ class Header extends React.Component {
     register = (event,state)=> {
         this.setState({ [state]: event.target.value });
         
-        fetch('https://zomatobackend21.herokuapp.com/Users',{
+        fetch('https://infinite-eyrie-27228.herokuapp.com/Users',{
             method:'POST',
             headers:{'Content-Type':'application/json'},
             body:JSON.stringify({
