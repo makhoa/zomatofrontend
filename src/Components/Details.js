@@ -43,7 +43,7 @@ class Details extends React.Component {
         const {restaurant} = qs;
 
         axios({
-            url:`https://infinite-eyrie-27228.herokuapp.com/RestaurantData/${restaurant}`,
+            url:`https://zomatobackend21.herokuapp.com/RestaurantData/${restaurant}`,
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
         })
@@ -58,7 +58,7 @@ class Details extends React.Component {
         const {restId} = this.state;
         if (state == "menuItemsModalIsOpen" && value == true) {
             axios({
-                url:`https://infinite-eyrie-27228.herokuapp.com/Items/${restId}`,
+                url:`https://zomatobackend21.herokuapp.com/Items/${restId}`,
                 method: 'GET',
                 headers: { 'Content-Type': 'application/json' }
             })
@@ -131,7 +131,7 @@ class Details extends React.Component {
         form.remove()
     }
     getData = (data) => {
-        return fetch(`https://infinite-eyrie-27228.herokuapp.com/Payment`, {
+        return fetch(`https://zomatobackend21.herokuapp.com/Payment`, {
             method: "POST",
             headers: {
                 Accept: "application/json",
