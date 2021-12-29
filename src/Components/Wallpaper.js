@@ -20,7 +20,7 @@ class Wallpaper extends React.Component{
         sessionStorage.setItem(`location_id`,location_id);
 
         axios({
-            url:`https://infinite-eyrie-27228.herokuapp.com/RestaurantData/${location_id}`,
+            url:`https://zomatobackend21.herokuapp.com/RestaurantData/${location_id}`,
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
         })
