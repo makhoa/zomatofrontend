@@ -33,7 +33,7 @@ class Filter extends React.Component{
         };
 
         axios({
-            url:'https://infinite-eyrie-27228.herokuapp.com/Filter',
+            url:`https://zomatobackend21.herokuapp.com/Filter`,
             method:'POST',
             headers:{'Content-Type':'application/json'},
             data: filterobj
@@ -51,7 +51,7 @@ class Filter extends React.Component{
             )
 
             axios({
-                url:'https://infinite-eyrie-27228.herokuapp.com/Locations',
+                url:`https://zomatobackend21.herokuapp.com/Locations`,
                 method:'GET',
                 headers:{'Content-Type':'application/json'},
             })
@@ -81,7 +81,7 @@ class Filter extends React.Component{
         };
 
         axios({
-            url:'https://infinite-eyrie-27228.herokuapp.com/Filter',
+            url:`https://zomatobackend21.herokuapp.com/Filter`,
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             data: filterObj
@@ -109,7 +109,7 @@ class Filter extends React.Component{
         };
 
         axios({
-            url:'https://infinite-eyrie-27228.herokuapp.com/Filter',
+            url:`https://zomatobackend21.herokuapp.com/Filter`,
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             data: filterObj
@@ -137,7 +137,7 @@ class Filter extends React.Component{
         };
 
         axios({
-            url:'https://infinite-eyrie-27228.herokuapp.com/Filter',
+            url:`https://zomatobackend21.herokuapp.com/Filter`,
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             data: filterObj
@@ -178,7 +178,7 @@ class Filter extends React.Component{
         };
 
         axios({
-            url:'https://infinite-eyrie-27228.herokuapp.com/Filter',
+            url:`https://zomatobackend21.herokuapp.com/Filter`,
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             data: filterObj
@@ -210,7 +210,7 @@ class Filter extends React.Component{
         };
 
         axios({
-            url:'https://infinite-eyrie-27228.herokuapp.com/Filter',
+            url:`https://zomatobackend21.herokuapp.com/Filter`,
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             data: filterObj
