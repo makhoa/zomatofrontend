@@ -310,7 +310,7 @@ text-align: center;
     .ft-author
 
         {
-            margin-left: 65%;
+            margin-left: 65% !important;
             
             
         }
