@@ -4,8 +4,6 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 15px;
-    padding-right: 15px;
     border-radius: 0 0 5% 5%;
     border-bottom: 13px solid rgb(133, 21, 90);
 }
@@ -383,7 +381,7 @@
 .ft-author
 
     {
-        margin-left: 68%;
+        margin-left: 65%;
         
         
     }
