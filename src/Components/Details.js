@@ -178,10 +178,10 @@ class Details extends React.Component {
             <div style={bd}>
                 <div>
                     <img src={`../${restaurant.image}`} alt="No Image, Sorry for the Inconvinience" className="resImage" />
-                    <button className="button" onClick={() => this.handleModal('galleryModalIsOpen', true)}>Click to see Image Gallery</button>
+                    <button className="button" onClick={() => this.handleModal('galleryModalIsOpen', true)}>Click for Gallery</button>
                 </div>
                 <div className="heading">{restaurant.name}</div>
-                <button className="btn-order" onClick={() => this.handleModal('menuItemsModalIsOpen', true)} >Place Online Order</button>
+                <button className="btn-order" onClick={() => this.handleModal('menuItemsModalIsOpen', true)} >Place Order</button>
 
                 <div className="tabs">
                     <div className="tab">
